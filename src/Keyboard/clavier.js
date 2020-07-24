@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './clavier.scss'
+import './_clavier.scss'
 
 import Touch from './touch'
 

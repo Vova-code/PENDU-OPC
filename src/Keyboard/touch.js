@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 
-import './touch.scss'
+import './_touch.scss'
 
 const Touch = ({ letter, onClick }) => <div className="keyboardTouch" value={letter} onClick={onClick} >{letter}</div>
 
