@@ -1,0 +1,15 @@
+.clavier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 550px;
+
+    span {
+        display: flex;
+        margin: 2.5px;
+    }
+    
+    .keyboard_third_line {
+        justify-content: space-evenly;
+    }
+}
