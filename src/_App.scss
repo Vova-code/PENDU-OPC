@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.word_to_guess {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12em;
+  height: 2em;
+  margin: 0 0 1em;
+  padding: 0.2em;
+  border-radius: 1rem;
+  box-shadow: 0 5px 40px 10px #899599;
+
+  span {
+    color: black;
+    font-family: monospace;
+    letter-spacing: 0.3em;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,9 +1,9 @@
 import React from 'react';
+
 import logo from './logo.svg';
-import './App.scss';
+import './_App.scss';
 
 import Clavier from './Keyboard/clavier'
-import KeyPressed from './Functions/KeyPressed'
 
 function App() {
   return (
@@ -14,7 +14,9 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
 
-        {KeyPressed(Clavier)}
+        <div className="word_to_guess">
+          <span>GOURMANDISE</span>
+        </div>
 
         <Clavier />
 
